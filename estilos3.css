@@ -1,0 +1,316 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body.light {
+    background: #2C3A47;
+    color: white;
+}
+body.dark {
+    background: li;
+}
+
+#theme {
+    color: black;
+    background: #c7ecee;
+    margin: 20px;
+    padding: 5px 0 0 5px;
+    border-radius: 5px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+div.nav {
+    list-style-type: none;
+    overflow: hidden;
+    background: #26252d;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+/*Perfil*/
+img.mage {
+    position: absolute;
+    top: 2.5%;
+    left: 2%;
+    transform: translate(-10%, -10%);
+}
+
+.mage {
+    float: left;
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+}
+
+.nav_links {
+    background-color: #26252d;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.nav_links li {
+    display: inline;
+}
+
+.nav_links, a {
+    font-family: "Hack Nerd Font Mono";
+    text-align: center;
+    color: black;
+    color: #fafbfd;
+    margin: 5px ;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.lia:hover {
+    background-color: black;
+    margin: 10px;
+    border-radius: 30px;
+}
+
+.sobre {
+    float: right;
+}
+
+
+
+/*conocer*/
+div.conoce {
+    margin: 20px 50px 20px 50px;
+}
+
+div.conoce img {
+    width: 100%;
+    height: 500px;
+    border-radius: 15px;
+}
+
+.enmas {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+button.botone {
+    position: absolute;
+    top: 67%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90px;
+    height: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+    opacity: 0.8;
+    border-radius: 10px;
+}
+
+button:hover {
+    width: 95px;
+    height: 35px;
+}
+
+.otrot {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.otrot p {
+    text-align: center;
+    opacity: 0.8;
+}
+
+div.atros {
+    margin: 20px;
+    padding: 10px;
+}
+
+div.atros p {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+div.gridmas {
+    margin: 15px;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 5px;
+    background-color: #dafff5;
+    border-radius: 20px;
+}
+
+.gd:hover {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+}
+
+.gd {
+    overflow: hidden;
+}
+
+div.gd h3 {
+    text-align: center;
+    padding: 10px;
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div.gd p {
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: black;
+}
+
+div.gd p:hover {
+    color: #d63031;
+}
+
+.gridmas > div.gd {
+    background-color: #c7ecee;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+hr {
+    margin: 20px;
+    border: 0;
+    height: 2px;
+    background: #c7ecee;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+.prueba {
+    margin: 6px;
+    text-align: center;
+    font-size: 30px;
+    font-family: monospace;
+}
+
+/*imagenesmas*/
+img.imgok {
+    width: 650px;
+    height: 400px;   
+}
+
+div.masimage {
+    display: flex;
+    justify-content: space-around;
+}
+
+.masimage .imgok {
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.imgd:hover .imgok{
+    -webkit-transform: scale(.9);
+    transform: scale(0.9);
+}
+
+div.imgd {
+    overflow: hidden;
+}
+
+/*Articulos*/
+.articulos {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.articulos .ar {
+    margin: 20px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #26252d;
+}
+
+.articulos .ar .ac {
+    justify-content: center;
+    color: #d63031;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+.articulos .ac:hover  {
+    color: #c7ecee;
+    font-size: 22px;
+}
+
+.articulos .ar:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    background-color: black;
+    cursor: pointer;
+}
+
+.ar {
+    overflow: hidden;
+}
+
+img.mashu {
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.column {
+    margin: 20px;
+    padding: 20px;
+    column-count: 3;
+    column-gap: 50px;
+    column-rule: 2px solid #dafff5;
+    text-align: justify;
+}
+
+.content {
+    margin: 10px;
+    padding: 10px;
+    justify-content: center;
+    text-align:justify;
+}
+
+/*.content {
+    text-align: justify;
+    text-align-last: right ;
+}
+*/
+
+.sImage {
+    width: 600px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.sPrueba {
+    display: grid ;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
